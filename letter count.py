@@ -3,7 +3,7 @@ print("="*50)
 sentence=input()
 count={}
 
-for character in sentence:
+for character in sentence.upper():
     count.setdefault(character,0)
     count[character]=count[character]+1
 print(count)
