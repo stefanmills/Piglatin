@@ -1,7 +1,7 @@
 import webbrowser as wb
 
 def chromeauto():
-    chrome_path="/opt/google/chrome/google-chrome"
+    chrome_path="/opt/google/chrome/google-chrome" #executable chrome path
     websites={"twitter.com",
               "gmail.com",
               "coursera.org",
